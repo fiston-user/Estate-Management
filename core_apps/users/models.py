@@ -11,7 +11,7 @@ class UsernameValidator(validators.RegexValidator):
     message = _(
         "Your username must contain only letters, numbers and @/./+/-/_ characters."
     )
-    flags = 0
+    flag = 0
 
 
 class User(AbstractUser):
